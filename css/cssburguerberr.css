@@ -36,6 +36,7 @@ main{
 
 footer{
     background-color: green;
+    text-align: center;
 }
 
 .lista_link{
@@ -51,6 +52,11 @@ footer{
 .lii a{
     color: white;
     text-decoration: none;
+}
+
+.lii:hover a{
+    color:#f4b74b;
+    border-bottom: 2px solid #f4b74b;
 }
 
 .logo{
