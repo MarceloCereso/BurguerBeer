@@ -104,6 +104,10 @@ main {
 
 .p_loc{
     margin-bottom: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 20px;
 }
 
 .loc{
@@ -138,4 +142,16 @@ main {
     padding: 20px;
     background-color: white;
     box-shadow: inset -2px 3px 11px -1px rgb(0 0 0);
+}
+
+.line_ITB{
+  text-align: center;
+  display: block;
+  margin-top: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.maps{
+  margin-top: 20px;
 }
