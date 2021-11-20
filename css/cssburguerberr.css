@@ -6,6 +6,10 @@
   font-family: Roboto;
 }
 
+body{
+    min-height: 100vh;
+}
+
 header {
   text-transform: uppercase;
   background-color: black;
@@ -96,4 +100,42 @@ main {
     align-items: center;
     padding: 20px 80px;
     flex-direction: row;
+}
+
+.p_loc{
+    margin-bottom: 10px;
+}
+
+.loc{
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+
+
+.img_main{
+    margin-right: 70px;
+}
+
+.card{
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    margin-top: 150px;
+}
+
+.img_cards{
+    text-align: center;
+    display: block;
+    
+}
+
+.card_1{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: white;
+    box-shadow: inset -2px 3px 11px -1px rgb(0 0 0);
 }
