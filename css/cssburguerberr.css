@@ -304,7 +304,7 @@ span{
 .promo_november{
   margin-top: 2%;
   font-size: 2rem;
-  color: red;
+  color: purple;
 }
 
 .main_november{
@@ -328,10 +328,12 @@ span{
 
 .s_black{
   margin-top: 2%;
+  gap: 10%;
+  color: purple;
 }
 
 .charizard{
-  color: orangered;
+  color: purple;
   text-transform: uppercase;
   font-weight: bolder;
 }
@@ -347,5 +349,5 @@ span{
 }
 
 .span_frio{
-  color: red;
+  color: purple;
 }
