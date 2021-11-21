@@ -13,7 +13,7 @@ body{
 header {
   text-transform: uppercase;
   background-color: black;
-  color: #c4c4c4;
+  color: #f4b74b;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -24,8 +24,8 @@ header {
 /* background-color: #ffffe0; */
 
 main {
-  background-color: #3b3838;
   overflow: hidden;
+  background-color: #3b3838;
 }
 
 .main_banner {
@@ -34,6 +34,7 @@ main {
   justify-content: center;
   animation: 2s move2;
   padding: 20px;
+
 }
 
 .lista_link {
@@ -122,12 +123,14 @@ main {
 }
 
 .card{
-    text-transform: uppercase;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 40px;
-    margin-top: 150px;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+  margin-top: 150px;
+  flex-wrap: wrap;
+  gap: 10px;
 }
 
 .img_cards{
@@ -137,11 +140,12 @@ main {
 }
 
 .card_1{
-    display: flex;
-    flex-direction: column;
-    padding: 20px;
-    background-color: white;
-    box-shadow: inset -2px 3px 11px -1px rgb(0 0 0);
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background-color: white;
+  box-shadow: inset -2px 3px 11px -1px rgb(0 0 0);
+  width: 49%;
 }
 
 .line_ITB{
@@ -154,4 +158,16 @@ main {
 
 .maps{
   margin-top: 20px;
+}
+
+.combo_h{
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.combo_p{
+    white-space: pre-line;
+    color: white;
 }
