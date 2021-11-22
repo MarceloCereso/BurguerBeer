@@ -202,6 +202,8 @@ main {
   margin: 20px;
   border-radius: 1%;
   font-size: 2rem;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .line_ITB{
@@ -311,6 +313,9 @@ span{
   text-align: center;
   white-space: pre-line;
   font-size: 2rem;
+  text-overflow: ellipsis;
+  line-height: 30px;
+
 }
 
 .card_text{
