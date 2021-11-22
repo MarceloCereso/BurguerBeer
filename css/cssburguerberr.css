@@ -175,8 +175,13 @@ main {
   padding: 0%;
   gap: 10px;
   margin: 20px;
+  
   /* max-width: 80%;
   max-height: 50%; */
+}
+
+.card p{
+  font-size: 16px;
 }
 
 .img_cards{
@@ -191,17 +196,20 @@ main {
   justify-content: space-around;
 }
 
+.card_1 p{
+  font-size: 16px;
+}
+
 .card_1{
   display: flex;
   flex-flow: nowrap column;
   padding: 0px;
   background-color: #f4b74b;
   border: 2px solid black;
-  min-height: 15%;
   width: 49%;
   margin: 20px;
   border-radius: 1%;
-  font-size: 2rem;
+  font-size: 16px;
   flex-direction: column;
   justify-content: space-between;
 }
@@ -241,7 +249,17 @@ main {
   text-align: center;
   text-transform: uppercase;
   font-weight: bolder;
-  font-size: 300%;
+  font-size: 20px;
+}
+
+.price2{
+  white-space: pre-line;
+  color: red;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-size: 20px;
+  margin-top: 15%;
 }
 
 span{
@@ -303,25 +321,26 @@ span{
   animation: 2s move2;
 }
 
-.promo_november{
+.heading_banner{
   margin-top: 2%;
-  font-size: 2rem;
+  font-size: 20px;
   color: purple;
 }
 
-.main_november{
+.main_content_card{
   text-align: center;
   white-space: pre-line;
   font-size: 2rem;
   text-overflow: ellipsis;
   line-height: 30px;
-
+  text-transform: initial;
 }
 
 .card_text{
   white-space: pre-line;
   color: red;
   font-weight: bold;
+  font-size: 20px;
 }
 
 .p_text{
@@ -349,10 +368,14 @@ span{
 
 .a_p1{
   white-space: pre-line;
-  font-size: 2rem;
   color: #000;
 }
 
 .span_frio{
   color: purple;
+}
+
+.racionais{
+  font-size: 20px;
+  text-align: center;
 }
