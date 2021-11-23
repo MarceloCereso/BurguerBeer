@@ -25,7 +25,7 @@
 </head>
 <body>
     <header class="main_header">
-            <div>
+            <div class="img_bb">
               <img
                 class="logo"
                 src="../files/logo2_burger_beer.jpg"
@@ -69,10 +69,13 @@
             </div>
     </header>
     <main class="main">
+      <div> 
+        <h1 id="h1">SAC - Burger Beer</h1>
+        <p class="subtitulo">Ajude-nos a melhorar!❤</p>
+      </div>
         <form>
-          <div class="forms">
-            <fieldset>
-              
+            <div>
+              <legend class="forms">
                 <div>
                     <label for="nome">Seu Nome</label><br>
                     <input type="text" name="nome" id="nome">
@@ -81,23 +84,22 @@
                     <label for="sobrenome">Seu Sobrenome</label><br>
                     <input type="text" name="sobrenome" id="sobrenome">
                 </div>
-            
-
+<!--===============================================================================================-->
                 <div>
-                <label for="email">Email</label><br>
-                <input type="email" name="email" id="email">
-              </div>
-
+                  <label for="email">Email</label><br>
+                  <input placeholder="seuemail@gmail.com" type="email" name="email" id="email">
+                </div>
+<!--===============================================================================================-->
                <div>
                 <label for="genero">Qual o seu gênero</label> <br>
                 <label>
-                    <input type="radio" name="genero" id="genero" checked>Masculino
+                    <input type="radio" name="genero" id="genero" checked>   Masculino
                 </label>
                 <label>
-                    <input type="radio" name="genero" id="genero">Feminino
+                    <input type="radio" name="genero" id="genero">   Feminino
                 </label>
               </div>
-
+              <!--===============================================================================================-->
               <div>
                 <label for="categoria">Categoria</label><br>
                 <select id="categoria">
@@ -112,17 +114,18 @@
 
               <div>
                  <label for="phone">Telefone</label><br>
-                 <input type="tel" id="phone" name="phone"
+                 <input placeholder="(99) 9999 - 9999" type="tel" id="phone" name="phone"
                  pattern="[0-9] {2}- [0-9] {1}- [0-9] {4}- [0-9] {4}" required>       
               </div>
-              <small>Format: 11 9999-9999</small>
-
               <div>
                  <label for="mensage">Mensagem</label> <br>
-                 <input type="text" name="mensage" id="mensage">
+                 <textarea placeholder="Digite aqui sua mensagem" rows="8" cols="50" id="mensage" name="mensage"></textarea>
               </div>
-             
-             </fieldset>
+              <div>
+                <button type="submit">Enviar</button>
+              </div>
+            </legend>
+
           </div>
         </form>
     </main>
