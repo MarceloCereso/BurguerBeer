@@ -83,6 +83,16 @@ main {
   gap: 50px;
 }
 
+.img_bb{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.img_bbb{
+  align-items: center;
+}
+
 .div_sociais {
   margin-right: 100px;
 }
