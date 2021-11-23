@@ -207,7 +207,7 @@ main {
 }
 
 .card_1 p{
-  font-size: 16px;
+  font-size: 20px;
 }
 
 .card_1{
@@ -340,7 +340,6 @@ span{
 .main_content_card{
   text-align: center;
   white-space: pre-line;
-  font-size: 2rem;
   text-overflow: ellipsis;
   line-height: 30px;
   text-transform: initial;
