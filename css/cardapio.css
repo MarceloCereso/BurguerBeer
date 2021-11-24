@@ -1,0 +1,137 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  border: 0%;
+  box-sizing: border-box;
+  font-family: Roboto;
+}
+
+header {
+  text-transform: uppercase;
+  background-color: black;
+  color: #f4b74b;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 20px;
+}
+
+.img_bb {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.lista_link {
+  display: flex;
+}
+
+.lii {
+  list-style-type: none;
+  margin: 15px;
+}
+
+.lii a {
+  color: white;
+  text-decoration: none;
+}
+
+.lii:hover a {
+  color: #f4b74b;
+  border-bottom: 2px solid #f4b74b;
+}
+
+.list_redes {
+  list-style: none;
+  color: white;
+  display: flex;
+  gap: 50px;
+}
+
+.div_sociais {
+  margin-right: 100px;
+}
+
+.logo {
+  animation: 2s move;
+}
+
+.line_ITB {
+  text-align: center;
+  display: block;
+  margin-top: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+@keyframes move {
+  from {
+    transform: translateX(-100px);
+    opacity: 0.2;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+/* main */
+.main {
+  background-color: #fad0d0;
+}
+.cardapio_title {
+  font-size: 32px;
+  text-transform: uppercase;
+  background-color: #f4c272;
+  padding: 4px;
+  text-align: center;
+}
+.burgers_title {
+  margin-left: 37px;
+  font-size: 28px;
+}
+.burg_subs {
+  font-size: 27px;
+  padding: 10px;
+}
+.container_cardapio {
+  padding: 7%;
+}
+.burgers_cards {
+  padding: 7px;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-around;
+}
+.burgers_cards_filhos {
+  width: 30%;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+.burgers_div_img {
+  background-color: #ea894a;
+  border-radius: 17px;
+  padding: 0%;
+}
+.burgers_div_img img {
+  max-width: 100%;
+}
+/* main */
+/* footer */
+.div_footer {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 80px;
+  flex-direction: row;
+}
+
+.list_redes {
+  list-style: none;
+  color: white;
+  display: flex;
+  gap: 50px;
+}
