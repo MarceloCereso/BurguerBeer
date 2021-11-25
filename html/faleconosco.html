@@ -31,7 +31,7 @@
                 src="../files/logo2_burger_beer.jpg"
                 alt="logo burguer beer"
               />
-              <h1 class="logo">Burger Beer</h1>
+              <h2 class="logo">Burger Beer</h2>
             </div>
             <div class="links">
               <ul class="lista_link">
@@ -70,23 +70,23 @@
         <h1 id="h1">SAC - Burger Beer</h1>
         <p class="subtitulo">Ajude-nos a melhorar!❤</p>
       </div>
-        <form>
+      <form action="https://formsubmit.co/askingapple@outlook.com" method="POST">
             <div>
               <legend class="forms">
                 <div class="charmander"class="charmander">
                     <label for="nome">Seu Nome</label><br>
-                    <input type="text" name="nome" id="nome">
+                    <input type="text" name="nome" id="nome" required>
                 </div>
                 <div class="charmander">
                     <label for="sobrenome">Seu Sobrenome</label><br>
-                    <input type="text" name="sobrenome" id="sobrenome">
+                    <input type="text" name="sobrenome" id="sobrenome" required>
                 </div>
                 <div class="charmander">
                   <label for="email">Email</label><br>
-                  <input placeholder="seuemail@gmail.com" type="email" name="email" id="email">
+                  <input placeholder="seuemail@gmail.com" type="email" name="email" id="email" required>
                 </div>
                <div class="charmander">
-                <label for="genero">Qual o seu gênero</label> <br>
+                <label for="genero">Qual o seu gênero</label><br>
                 <label>
                     <input type="radio" name="genero" id="genero" checked>   Masculino
                 </label>
@@ -115,7 +115,8 @@
                  <textarea placeholder="Digite aqui sua mensagem" rows="8" cols="50" id="mensage" name="mensage"></textarea>
               </div>
               <div class="charmander">
-                <input class="submit" type="submit" value="Enviar">
+                <input type="submit" name="submit" class="submit">
+                <!-- <button class="submit" type="submit">Enviar</button> -->
               </div>
             </legend>
 

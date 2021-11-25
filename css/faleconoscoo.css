@@ -6,8 +6,6 @@
     font-family: "Roboto";
   }
 
-/* HEADER!!! */
-
 header {
     text-transform: uppercase;
     background-color: black;
@@ -76,17 +74,39 @@ header {
 
   /* MAIN */
 
-  textarea {
-    resize: none;
-  }
+  main{
+      background-color: #f4b74b;
+      min-height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
 
-  body{
-    background-color: #F4C272;
   }
 
   h1::before{
     content: "📧";
     display:block;
+  }
+
+  h1,p{
+      font-size: 24px;
+      color: #502314;
+      text-align: center;
+      margin-bottom: 20px;
+      line-height: 1.2;
+  }
+
+
+  .form button{
+      cursor: pointer;
+      width: 100%;
+      padding: 5px;
+      background: red;
+      color: white;
+      font-weight: bold;
+      font-size: 20px;
+      border: 0;
   }
 
   .charmander input[type="text"]{
@@ -100,36 +120,6 @@ header {
     
   }
 
-  .submit{
-    width: 100%;
-    padding: 5px;
-    background: red;
-    color: white;
-    font-weight: bold;
-    font-size: 20px;
-    border: 0;
-    cursor: pointer;
-
-  }
-
-  .form input,
-  .form textarea {
-    font: inherit;
-    padding: 10px;
-  }
-
-  #h1{
-    margin-top: 20px;
-    text-align: center;
-    font-size: 26px;
-    color: #502314;
-  }
-
-  .subtitulo{
-    text-align: center;
-    color: #502314;
-  }
-
   .forms{
     line-height: 1.5;
     width: 100%;
@@ -141,52 +131,57 @@ header {
     max-width: 600px;
     padding: 50px;
     background-color: white;
-}
-
-#nome{
-  width: 100%;
-  border: 1px solid black;
-  border-radius: 8px;
-}
-
-#sobrenome{
-  width: 100%;
-  border: 1px solid black;
-  border-radius: 8px;
-}
-
-#email{
-  width: 100%;
-  border: 1px solid black;
-  border-radius: 8px;
-  padding:10px;
-}
-
-#genero{
-  accent-color: red;
-}
-
-#phone{
-  border: 1px solid black;
-  border-radius: 8px;
-  width: 100%;
-  padding: 10px;
-}
-
-#mensage{
-  border: 1px solid black;
-  border-radius: 8px;
-  width: 100%;
-}
-
-#categoria{
-  width: 100%;
-  padding:10px;
-  border: 1px solid black;
-  border-radius: 10px;
-}
-  /* FOOTER */
+  }
+  #nome{
+    width: 100%;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 8px;
+  }
   
+  #sobrenome{
+    width: 100%;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 8px;
+  }
+  
+  #email{
+    width: 100%;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 8px;
+  }
+  
+  #genero{
+    accent-color: red;
+    padding: 5px;
+  }
+  
+  #phone{
+    border: 1px solid black;
+    border-radius: 8px;
+    width: 100%;
+    padding: 5px;
+  }
+  
+  #mensage{
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 5px;
+    width: 100%;
+  }
+  
+  #categoria{
+    width: 100%;
+    padding: 5px;
+  } 
+
+
+
+
+  /* FOOTER */
+
   .div_footer{
     background-color: black;
     color: white;
